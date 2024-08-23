@@ -30,16 +30,15 @@
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=db_adapter",
                     "--package=db_adapter"
                 ],
                 "filter": {
                     "name": "db_adapter",
-                    "kind": "bin"
                 }
             },
             "args": [],
-            "cwd": "${workspaceFolder}"
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "read env",
         }
     ]
 }
